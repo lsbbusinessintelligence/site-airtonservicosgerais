@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { MessageCircle, Phone, Check, HardHat, Droplets, Wind } from "lucide-react";
+import { MessageCircle, Phone, Check, HardHat, Droplets, Wind, Wrench } from "lucide-react";
 
 const WHATSAPP_URL =
   "https://wa.me/5511974743793?text=Ol%C3%A1!%20Encontrei%20o%20site%20no%20Google.%20Preciso%20de%20ajuda%20com%20um%20reparo%2Fservi%C3%A7o.";
@@ -58,7 +58,7 @@ const HeroSection = () => (
                 color: "hsl(215 75% 10%)",
               }}
             >
-              <Hammer className="w-4 h-4 flex-shrink-0" />
+              <Wrench className="w-4 h-4 flex-shrink-0" />
               <span>SERVIÇOS GERAIS EM SÃO PAULO</span>
             </div>
           </div>
