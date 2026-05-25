@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { MessageCircle, Phone, Check, Wrench, HardHat, Hammer } from "lucide-react";
+import { MessageCircle, Phone, Check, HardHat, Droplets, Wind } from "lucide-react";
 
 const WHATSAPP_URL =
   "https://wa.me/5511974743793?text=Ol%C3%A1!%20Encontrei%20o%20site%20no%20Google.%20Preciso%20de%20ajuda%20com%20um%20reparo%2Fservi%C3%A7o.";
@@ -71,8 +71,8 @@ const HeroSection = () => (
           </h1>
 
           <p className="text-lg md:text-xl text-white/70 mb-10 max-w-2xl leading-relaxed">
-            Serviços gerais, marido de aluguel, pedreiro, encanador, eletricista e
-            desentupidor em <strong className="text-white/90">São Paulo - SP</strong> e
+            Desentupidora profissional, caça vazamento, eletricista, encanador,
+            pedreiro e pintura em <strong className="text-white/90">São Paulo - SP</strong> e
             região metropolitana.
           </p>
 
@@ -102,7 +102,7 @@ const HeroSection = () => (
             {[
               "Atendimento em toda São Paulo e região metropolitana",
               "Orçamento gratuito e transparente pelo WhatsApp",
-              "Um profissional para todos os serviços da sua casa",
+              "Equipamentos industriais de desentupimento e geofone para caça vazamento",
               "Serviço garantido e trabalho limpo, sem retrabalho",
             ].map((item) => (
               <li key={item} className="flex items-center gap-2 text-white/75 text-sm md:text-base">
@@ -122,16 +122,21 @@ const HeroSection = () => (
         transition={{ duration: 0.8, delay: 0.3 }}
       >
         <div className="relative mt-8 mr-12 flex flex-col items-center gap-6">
-          <img
-            src="/images/airton/AIRTON-LOGO.jpeg"
-            alt="Airton Serviços Gerais — Marido de aluguel, pedreiro, encanador e eletricista em São Paulo"
-            className="w-56 h-56 object-contain rounded-2xl shadow-2xl border border-white/10"
-          />
+          {/* Mascot placeholder — trocar pelo avatar do personagem quando disponível */}
+          <div className="w-56 h-56 rounded-full border-4 border-accent/40 shadow-2xl overflow-hidden bg-primary/60 flex items-center justify-center relative">
+            <img
+              src="/images/airton/AIRTON-LOGO.jpeg"
+              alt="Airton Serviços — Desentupidora profissional e caça vazamento em São Paulo"
+              className="w-full h-full object-contain"
+            />
+            {/* Anel decorativo */}
+            <div className="absolute inset-0 rounded-full border-2 border-accent/20 pointer-events-none" />
+          </div>
           <div className="flex gap-8 text-center">
             {[
-              { icon: Wrench, label: "Marido de Aluguel" },
-              { icon: HardHat, label: "Pedreiro e Reformas" },
-              { icon: Hammer, label: "Hidráulica e Elétrica" },
+              { icon: Wind, label: "Desentupidora" },
+              { icon: Droplets, label: "Caça Vazamento" },
+              { icon: HardHat, label: "Elétrica e Pintura" },
             ].map(({ icon: Icon, label }) => (
               <div key={label} className="flex flex-col items-center gap-2">
                 <div className="w-10 h-10 rounded-xl bg-accent/15 flex items-center justify-center">

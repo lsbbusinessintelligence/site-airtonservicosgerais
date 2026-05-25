@@ -36,7 +36,7 @@ const DiferenciaisSection = () => (
       >
         <h2 id="diferenciais-heading" className="text-3xl md:text-4xl font-bold mb-4">
           Por que escolher a{" "}
-          <span className="text-gradient">Airton Serviços Gerais?</span>
+          <span className="text-gradient">Airton Serviços?</span>
         </h2>
         <p className="text-muted-foreground text-lg">
           Compromisso com qualidade e confiança em cada serviço realizado em São Paulo

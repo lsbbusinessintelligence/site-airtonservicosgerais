@@ -7,7 +7,7 @@ const photos = [
   },
   {
     src: "/images/airton/AIRTON-FOTO02.jpeg",
-    alt: "Serviço de pedreiro e marido de aluguel em residência na região de São Paulo",
+    alt: "Serviço de pedreiro e revestimento em residência na região de São Paulo",
   },
   {
     src: "/images/airton/AIRTON-FOTO03.jpeg",
@@ -45,8 +45,8 @@ const ResultsSection = () => (
           Trabalhos <span className="text-gradient">Realizados em São Paulo</span>
         </h2>
         <p className="text-muted-foreground text-lg">
-          Veja exemplos reais dos serviços de marido de aluguel, pedreiro, encanador e
-          eletricista executados pela Airton Serviços Gerais
+          Veja exemplos reais dos serviços de desentupidora, caça vazamento, pedreiro, encanador e
+          eletricista executados pela Airton Serviços
         </p>
       </motion.div>
 

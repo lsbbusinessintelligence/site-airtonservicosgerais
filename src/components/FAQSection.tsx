@@ -4,32 +4,32 @@ import { ChevronDown } from "lucide-react";
 
 const faqs = [
   {
-    q: "O que faz um marido de aluguel em São Paulo?",
-    a: "O marido de aluguel realiza pequenos reparos e serviços domésticos como instalação de prateleiras, suportes de TV, montagem de móveis, pequenos consertos hidráulicos e elétricos, troca de fechaduras e outros serviços do dia a dia que dispensam obra. A Airton Serviços Gerais atende em toda São Paulo e região metropolitana.",
+    q: "Como funciona o serviço de caça vazamento da Airton Serviços?",
+    a: "Utilizamos geofone e equipamentos de detecção digital para localizar vazamentos ocultos em paredes, lajes e pisos sem quebra-quebra desnecessária. O equipamento capta o som da água escapando e indica o ponto exato do vazamento, garantindo uma intervenção cirúrgica e econômica.",
   },
   {
-    q: "Como identificar vazamentos na minha casa?",
-    a: "Sinais de vazamento incluem: manchas de umidade em paredes ou teto, som de água correndo com torneiras fechadas, aumento inexplicável na conta de água, mofo em locais secos e pressão baixa em torneiras. Ao identificar qualquer sinal, chame um encanador profissional imediatamente. A Airton Serviços Gerais atende emergências de encanamento em São Paulo.",
+    q: "Como identificar vazamentos ocultos na minha casa?",
+    a: "Sinais de vazamento oculto incluem: manchas de umidade em paredes ou teto, som de água correndo com torneiras fechadas, aumento inexplicável na conta de água, mofo em locais secos e pressão baixa em torneiras. Ao identificar qualquer sinal, chame a Airton Serviços para um diagnóstico com geofone.",
   },
   {
-    q: "Quem faz serviço de desentupidor em São Paulo?",
-    a: "A Airton Serviços Gerais realiza desentupimento de pias, ralos, vasos sanitários e caixas de gordura em São Paulo e região metropolitana. O serviço é feito com agilidade e, sempre que possível, sem quebra-quebra.",
+    q: "Quem faz serviço de desentupimento profissional em São Paulo?",
+    a: "A Airton Serviços realiza desentupimento com máquinas motorizadas de grande porte em São Paulo e região metropolitana. Atendemos pias, ralos, vasos sanitários, caixas de gordura e tubulações de grande diâmetro com tecnologia industrial.",
   },
   {
-    q: "Qual o preço de um pedreiro em São Paulo?",
-    a: "O valor do serviço de pedreiro em São Paulo varia conforme o tipo e o tamanho do serviço (assentamento de piso, reboco, reforma de banheiro, etc.). A Airton Serviços Gerais oferece orçamento gratuito e transparente pelo WhatsApp antes de iniciar qualquer trabalho.",
+    q: "O serviço de pintura de fachada com cadeirinha (NR-35) é seguro?",
+    a: "Sim. A Airton Serviços é especialista em pintura de prédios e fachadas com uso de cadeirinha suspensa seguindo as normas NR-35 (trabalho em altura). Todos os equipamentos de proteção são utilizados conforme a regulamentação vigente.",
   },
   {
-    q: "A Airton Serviços Gerais atende emergências elétricas?",
-    a: "Sim. A Airton Serviços Gerais atende reparos elétricos urgentes em São Paulo e região, incluindo curtos-circuitos, disjuntores desarmados, instalação de chuveiros e problemas em quadros elétricos. Entre em contato pelo WhatsApp para atendimento.",
+    q: "A Airton Serviços atende emergências elétricas em São Paulo?",
+    a: "Sim. A Airton Serviços atende reparos elétricos urgentes em São Paulo e região, incluindo curtos-circuitos, disjuntores desarmados, instalação de chuveiros e problemas em quadros elétricos. Entre em contato pelo WhatsApp para atendimento.",
   },
   {
-    q: "Quais bairros de São Paulo a Airton Serviços Gerais atende?",
+    q: "Quais regiões de São Paulo a Airton Serviços atende?",
     a: "Atendemos toda a cidade de São Paulo e a região metropolitana, incluindo Zona Sul, Zona Norte, Zona Leste, Zona Oeste, Centro e municípios da Grande São Paulo. Para confirmar a disponibilidade na sua localização, entre em contato pelo WhatsApp.",
   },
   {
-    q: "O Airton faz reformas completas de banheiro e cozinha?",
-    a: "Sim. A Airton Serviços Gerais realiza reformas completas de banheiros e cozinhas em São Paulo, incluindo demolição, reboco, assentamento de porcelanato, instalações hidráulicas e elétricas. Solicite um orçamento pelo WhatsApp.",
+    q: "O Airton emite laudo técnico para seguro e condomínio?",
+    a: "Sim. Para serviços de caça vazamento, a Airton Serviços pode fornecer relatório técnico com a descrição do problema e solução aplicada, documentação útil para acionar seguro residencial ou prestar contas ao condomínio.",
   },
 ];
 
@@ -77,11 +77,11 @@ const FAQSection = () => (
       >
         <h2 id="faq-heading" className="text-3xl md:text-4xl font-bold mb-4">
           Perguntas Frequentes sobre{" "}
-          <span className="text-gradient">Serviços Gerais em São Paulo</span>
+          <span className="text-gradient">Desentupidora e Caça Vazamento em São Paulo</span>
         </h2>
         <p className="text-muted-foreground text-lg">
-          Tire suas dúvidas sobre marido de aluguel, pedreiro, encanador,
-          eletricista e desentupimento em São Paulo
+          Tire suas dúvidas sobre desentupidora industrial, caça vazamento com geofone,
+          eletricista, encanamento e pintura em São Paulo
         </p>
       </motion.div>
 

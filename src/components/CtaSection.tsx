@@ -19,9 +19,9 @@ const CtaSection = () => (
           <span className="text-gradient">Não adie mais o conserto!</span>
         </h2>
         <p className="text-white/70 text-lg mb-10 leading-relaxed">
-          Para serviços de <strong className="text-white/90">pedreiro, encanador, eletricista</strong> ou{" "}
-          <strong className="text-white/90">marido de aluguel</strong> em São Paulo, fale com a
-          Airton Serviços Gerais agora. Orçamento gratuito e serviço garantido.
+          Para serviços de <strong className="text-white/90">desentupidora, caça vazamento, pedreiro, encanador e eletricista</strong>{" "}
+          em São Paulo, fale com a
+          Airton Serviços agora. Orçamento gratuito e serviço garantido.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">

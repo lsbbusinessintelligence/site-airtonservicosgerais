@@ -17,8 +17,8 @@ const Footer = () => (
               className="w-12 h-12 object-contain rounded-lg border border-white/15"
             />
             <div>
-              <h3 className="text-lg font-bold leading-tight">Airton Serviços Gerais</h3>
-              <p className="text-primary-foreground/60 text-xs">Marido de Aluguel · Pedreiro · Encanador · Eletricista</p>
+              <h3 className="text-lg font-bold leading-tight">Airton Serviços</h3>
+              <p className="text-primary-foreground/60 text-xs">Desentupidora · Caça Vazamento · Eletricista · Pintura</p>
             </div>
           </div>
           <p className="text-primary-foreground/65 text-sm leading-relaxed">
@@ -31,11 +31,11 @@ const Footer = () => (
         <div>
           <h3 className="text-base font-bold mb-4">Serviços em São Paulo</h3>
           <ul className="space-y-2 text-primary-foreground/65 text-sm">
-            <li>• Marido de Aluguel em São Paulo</li>
-            <li>• Pedreiro e Reformas em SP</li>
-            <li>• Encanador em São Paulo</li>
-            <li>• Eletricista Residencial SP</li>
-            <li>• Desentupidora em São Paulo</li>
+            <li>• Desentupidora Profissional em São Paulo</li>
+            <li>• Caça Vazamento em SP</li>
+            <li>• Eletricista em São Paulo</li>
+            <li>• Encanamento em São Paulo</li>
+            <li>• Pedreiro e Pintura em SP</li>
           </ul>
         </div>
 
@@ -72,7 +72,7 @@ const Footer = () => (
       </div>
 
       <div className="pt-8 border-t border-primary-foreground/15 flex flex-col md:flex-row items-center justify-between gap-3 text-primary-foreground/50 text-xs">
-        <p>&copy; {new Date().getFullYear()} Airton Serviços Gerais. Todos os direitos reservados.</p>
+        <p>&copy; {new Date().getFullYear()} Airton Serviços. Todos os direitos reservados.</p>
         <p>
           Developed by{" "}
           <a
